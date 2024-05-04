@@ -118,6 +118,17 @@ body{
     padding: 10px 20%;
     
 
+    h2{
+        font-size: 20px;
+            color: #000;
+            margin-top: 20px;
+            letter-spacing: 3px;
+            font-weight: 700;
+            font-family: "Quicksand";
+            padding-bottom: 10px;
+            border-bottom: 2px solid #000;
+    }
+
     .pics{
         width: 100%;
         display: grid;
@@ -130,6 +141,7 @@ body{
             height: 400px;
             object-fit: cover;
             object-position: center;
+            filter: grayscale(100%);
         }
     }
 }

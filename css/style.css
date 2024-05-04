@@ -103,6 +103,16 @@ body {
   background: #fff;
   padding: 10px 20%;
 }
+.gallery h2 {
+  font-size: 20px;
+  color: #000;
+  margin-top: 20px;
+  letter-spacing: 3px;
+  font-weight: 700;
+  font-family: "Quicksand";
+  padding-bottom: 10px;
+  border-bottom: 2px solid #000;
+}
 .gallery .pics {
   width: 100%;
   display: grid;
@@ -116,6 +126,7 @@ body {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+  filter: grayscale(100%);
 }
 
 @media screen and (max-width: 670px) {
